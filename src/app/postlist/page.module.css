@@ -1,0 +1,68 @@
+.container {
+  width: 95%;
+  max-width: 85vw;
+  padding: 20px;
+}
+
+.gridContainer {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.languageSelector {
+  width: 200px !important;
+  margin-right: 10px !important;
+}
+
+.inputLabel {
+  background-color: #fff;
+  padding: 0px 6px;
+}
+
+.searchIcon {
+  color: #aaa;
+  cursor: pointer;
+}
+
+.dataGrid {
+  width: 100%;
+  height: 55vh !important;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContent {
+  padding: 20px;
+  background-color: #fff;
+  width: 600px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .modalContent {
+    width: 100%;
+  }
+  .gridContainer {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .dataGrid {
+    width: 65% !important;
+    height: 60vh !important;
+  }
+}
